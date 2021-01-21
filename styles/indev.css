@@ -1,0 +1,37 @@
+
+head,body{
+  background-image: url(../img/indev.gif);
+  background-size: 320px;
+}
+.main{
+  /* display: block; */
+  width: 100%;
+  margin-top: 25%;
+  position: fixed;
+
+  text-align: center;
+}
+a{
+  border-style: inset;
+  border-color: rgba(255,255,255,0.4);
+  text-decoration: none;
+  background: rgba(0,0,0,0.9);
+  padding: 25px 50px 25px 50px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 40px rgba(0, 0, 0, 0.2);
+  font-variant: petite-caps;
+  /* font: caption; */
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: #e493ae;
+}
+a:hover{
+  color: #2acdf5;
+}
+a:active{
+  color: green;
+}
