@@ -12,8 +12,8 @@ table{
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 20px;
-  width: 400px;
-  height: 50px;
+  width: 1000px;
+  height: 80px;
 }
 table, th,td{
   border: 1px solid rgba(70,70,70);
