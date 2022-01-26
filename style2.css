@@ -15,7 +15,7 @@ html, body {
     flex-direction: column;
     height: 100%;
     margin: 0 auto;
-    min-height: 100%:
+    min-height: 100%;
 }
 .content {
     flex: 1 0 auto;
@@ -31,44 +31,43 @@ html, body {
 /*     padding-bottom: 30px; */
     text-align: center;
 }
-/* .github{
-/*     position: absolute; */
-    right: 0;
-    bottom: 25px;
-    width: 25px;
-} */
+
 
 .main{
     padding: 25px;
-    background-color: #2E333E;
-}
-
-
-.klavento{
-    display: -moz-deck;
-    background-color: #232328;
-    width: 200px;
-    height: 300px;
-    margin: 16px;
-    color: white;
-    
-    border-radius: 10px;
+    background:  #27252a;
     border-style: solid;
-    border-color: #343A3E;
-    
-    line-height: 20.2px;
-    font-size: small;
-    font-style: oblique;
+    border-color: #171121;
+    width: auto;
 }
-.klavento img{
-    max-width: 150px;
-    border-radius: 100px;
-    box-shadow: 0 0 10px #626D87;
-    margin-top: 20px;
+img{
+  /* margin-top: 60px; */
+
+  /* width: 100% */
 }
 
-.klavento span{
-    background-color: red;
+details {
+  display: block;
+  border: 2px solid #14141b;
+  border-radius: 4px;
+  padding: .5em;
 }
-
-
+details summary {
+  display: list-item;
+  margin: -.5em;
+  padding: .5em;
+}
+details[open] > summary {
+  margin-bottom: .5em;
+}
+a{
+  text-decoration: none;
+  color: #e493ae;
+}
+a:hover{
+  color: #2acdf5;
+  text-decoration: underline;
+}
+a:active{
+  color: green;
+}
